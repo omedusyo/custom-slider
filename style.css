@@ -1,0 +1,76 @@
+
+
+/* NECESSARRY CSS */
+.slider-container .track {
+  width: 100%;
+  position: relative;
+
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.slider-container .progress {
+  width: 50%;
+}
+
+.slider-container .thumb {
+  position: absolute;
+  left: 50%;
+
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+
+/* DEFAULT CSS */
+.slider-container {
+  display: flex;
+  align-items: center;
+
+  width: 600px;
+}
+
+.slider-container .track {
+  background-color: #0096F0;
+  border-radius: 3px;
+}
+.slider-container .progress {
+  height: 15px;
+  border-radius: 3px;
+}
+.slider-container .thumb {
+  width: 20px;
+  height: 20px;
+  top: -2.5px;
+  background-color: white;
+  border: 1px solid #419cbe;
+}
+
+.slider-container .track-selected {
+  background-color: #0096F0;
+}
+.slider-container .progress-selected {
+  background-color: #0096F0;
+}
+.slider-container .thumb-selected {
+  width: 23px;
+  height: 23px;
+  top: -4px;
+  background-color: white;
+  /* background-color: #c1e4ff; */
+}
+
+.min {
+  width: 40px;
+}
+
+.max {
+  width: 40px;
+  text-align: right;
+}
